@@ -7,3 +7,13 @@
 #apptNote{
     width: 474px;
 }
+
+.detailtPopup1 {
+    width: 100px;
+}
+.detailtPopup2 {
+    width: 200px;
+}
+.apptCancelled{
+    text-decoration: line-through;
+}

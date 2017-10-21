@@ -14,8 +14,7 @@ class Appointment_model extends MY_Model {
     }
 
     public function getAppointmentsByDate($date) {
-        $sql = "SELECT app.id, app.customer_id, app.time, cus.phone, cus.name FROM appointment app JOIN customer cus ON app.customer_id = cus.id WHERE DATE(app.time)='$date' and status=0";
-//        var_dump($sql);
+        $sql = "SELECT app.id, app.customer_id, app.time, app.status, cus.phone, cus.name FROM appointment app JOIN customer cus ON app.customer_id = cus.id WHERE DATE(app.time)='$date' ";
         $query = $this->db->query($sql);
         return $query->result_array();
     }

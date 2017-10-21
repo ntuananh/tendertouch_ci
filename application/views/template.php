@@ -1,11 +1,11 @@
 <html>
     <head>
         <title> Hello World </title>
-<!--        <link href="http://tendertouch.local/assets/css/bootstrap-reboot.min.css"/>
-        <link href="http://tendertouch.local/assets/css/bootstrap-grid.min.css"/>
-        <link href="http://tendertouch.local/assets/css/bootstrap.min.css"/>-->
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/jquery.min.js"></script>
-        <!--<script type="text/javascript" src="http://tendertouch.local/assets/js/bootstrap.min.js"></script>-->
+<!--        <link href="<?php echo base_url(); ?>assets/css/bootstrap-reboot.min.css"/>
+        <link href="<?php echo base_url(); ?>assets/css/bootstrap-grid.min.css"/>
+        <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css"/>-->
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>-->
     </head>
     <body>
         <div id="menu">

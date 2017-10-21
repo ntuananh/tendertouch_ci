@@ -14,7 +14,7 @@ if (!isset($datetime)) {
     $datetime = date('Y/m/d H:i', $datetime / 1000);
 }
 ?>
-<form name="f" method="post" action="<?php echo site_url('appointment/create_appointment'); ?>">
+<form name="f" method="post" action="<?php echo site_url('admin/appointment/create_appointment'); ?>">
     <label for="dateIp">Date</label>
     <input type="text" id="dateIp" name="dateTime"/><br>
     <label for="phoneIp">Phone</label>

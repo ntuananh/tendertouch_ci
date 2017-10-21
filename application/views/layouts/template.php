@@ -1,18 +1,18 @@
 <html>
     <head>
         <title><?php echo $title ?></title>
-        <link href="http://tendertouch.local/assets/css/bootstrap.css" rel="stylesheet">
-        <link href="http://tendertouch.local/assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="http://tendertouch.local/assets/css/jquery.datetimepicker.css" rel="stylesheet">
-        <link href="http://tendertouch.local/assets/css/jquery-ui.css" rel="stylesheet">
-        <link href="http://tendertouch.local/assets/css/myStyle.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/jquery.datetimepicker.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/jquery-ui.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/myStyle.css" rel="stylesheet">
 
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/jquery-ui.js"></script>
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/api.js"></script>
-        <script type="text/javascript" src="http://tendertouch.local/assets/js/common.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/api.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/common.js"></script>
 
     </head>
     <body>
@@ -37,6 +37,6 @@
 
     </body>
 
-    <script type="text/javascript" src="http://tendertouch.local/assets/js/jquery.datetimepicker.full.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.datetimepicker.full.js"></script>
 
 </html>

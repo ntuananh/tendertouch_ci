@@ -13,9 +13,10 @@ class Appointmentdetail_model extends MY_Model {
     }
 
     public function get($id) {
-        $this->db->select('*');
-        $this->db->from('appointment_detail');
-        $this->db->join('service', 'appointment_detail.service_id=service.id');
+        $this->db->select('ad.id did, ser.duration, ser.id service_id, ser.name service_name, sta.id staff_id, sta.name staff_name');
+        $this->db->from('appointment_detail as ad');
+        $this->db->join('service as ser', 'ad.service_id=ser.id');
+        $this->db->join('staff as sta', 'ad.staff_id=sta.id');
         $this->db->where('appointment_id', $id);
         $result = $this->db->get();
 

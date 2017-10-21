@@ -1,8 +1,8 @@
 <form name="f" method="post" action="<?php echo site_url('appointment/edit/' . $apptId); ?>">
     <label for="dateIp">Date</label>
     <input type="text" id="dateIp" name="dateTime" disabled="disabled"/><br>
-    <label for="phoneIp">Phone</label>
-    <input type="text" name="phone" id="phoneIp" disabled="disabled"/><br>
+    <!--<label for="phoneIp">Phone</label>-->
+    <!--<input type="text" name="phone" id="phoneIp" disabled="disabled"/><br>-->
     <label>Name</label>
     <input type="text" name="name" id="nameIp" disabled="disabled"/><br>
     <div id="serviceDiv">
